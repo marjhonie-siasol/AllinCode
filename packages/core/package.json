@@ -1,0 +1,15 @@
+{
+  "name": "@allincode/core",
+  "version": "0.1.0",
+  "type": "module",
+  "description": "Zero-trust sandbox execution runtime and human-in-the-loop approval engine for AllInCode",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "scripts": {
+    "build": "tsc"
+  },
+  "dependencies": {
+    "@allincode/typegen": "*"
+  },
+  "license": "Apache-2.0"
+}

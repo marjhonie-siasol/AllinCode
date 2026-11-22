@@ -1,0 +1,21 @@
+{
+  "name": "all-in-code",
+  "version": "0.1.0",
+  "type": "module",
+  "description": "Command-line interface and runner for AllInCode",
+  "bin": {
+    "aic": "dist/index.js",
+    "all-in-code": "dist/index.js"
+  },
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "scripts": {
+    "build": "tsc"
+  },
+  "dependencies": {
+    "@allincode/core": "*",
+    "@allincode/gateway": "*",
+    "@allincode/typegen": "*"
+  },
+  "license": "Apache-2.0"
+}

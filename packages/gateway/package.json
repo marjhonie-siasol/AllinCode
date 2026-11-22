@@ -1,0 +1,16 @@
+{
+  "name": "@allincode/gateway",
+  "version": "0.1.0",
+  "type": "module",
+  "description": "The Model Context Protocol (MCP) server gateway that exposes search and execute",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "scripts": {
+    "build": "tsc"
+  },
+  "dependencies": {
+    "@allincode/core": "*",
+    "@allincode/typegen": "*"
+  },
+  "license": "Apache-2.0"
+}

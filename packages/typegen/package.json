@@ -1,0 +1,12 @@
+{
+  "name": "@allincode/typegen",
+  "version": "0.1.0",
+  "type": "module",
+  "description": "Synthesizes clean TypeScript type definitions from MCP tool schemas and OpenAPI specs",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "scripts": {
+    "build": "tsc"
+  },
+  "license": "Apache-2.0"
+}

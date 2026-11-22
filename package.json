@@ -1,0 +1,32 @@
+{
+  "name": "all-in-code-monorepo",
+  "version": "0.1.0",
+  "type": "module",
+  "private": true,
+  "description": "The Programmatic Tool Gateway for AI Agents. Tools, workflows, and integrations—All In Code.",
+  "workspaces": [
+    "packages/*",
+    "apps/*"
+  ],
+  "scripts": {
+    "build": "npm run --workspaces --if-present build",
+    "test": "npm run --workspaces --if-present test",
+    "dev": "npm run --workspaces --if-present dev",
+    "format": "prettier --write \"**/*.{ts,tsx,js,json,md}\""
+  },
+  "keywords": [
+    "mcp",
+    "model-context-protocol",
+    "codemode",
+    "ai-agents",
+    "programmatic-tool-calling",
+    "v8-isolates",
+    "developer-tools"
+  ],
+  "author": "AllInCode Contributors",
+  "license": "Apache-2.0",
+  "devDependencies": {
+    "@types/node": "^26.6.6",
+    "typescript": "^7.0.2"
+  }
+}
