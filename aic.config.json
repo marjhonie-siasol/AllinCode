@@ -1,0 +1,8 @@
+{
+  "client": {
+    "agent": "Antigravity",
+    "model": "Gemini 3.8 Flash (Medium)",
+    "contextLimit": 1000000
+  },
+  "servers": {}
+}

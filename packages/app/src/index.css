@@ -1,0 +1,59 @@
+@import "tailwindcss";
+
+@theme {
+  --font-sans: var(--app-font-sans, 'Geist', 'Inter', -apple-system, BlinkMacSystemFont, sans-serif);
+  --font-mono: var(--app-font-mono, 'Geist Mono', 'JetBrains Mono', ui-monospace, SFMono-Regular, monospace);
+  --color-brand-orange: #fe6d01;
+  --color-brand-violet: #5920fb;
+}
+
+@layer base {
+  :root {
+    --app-font-sans: 'Geist', 'Inter', -apple-system, BlinkMacSystemFont, sans-serif;
+    --app-font-mono: 'Geist Mono', 'JetBrains Mono', ui-monospace, SFMono-Regular, monospace;
+    --brand-orange: #fe6d01;
+    --brand-violet: #5920fb;
+    --brand-violet-muted: #a78bfa;
+    --brand-white: #ffffff;
+  }
+
+  html, body {
+    min-height: 100vh;
+    background-color: #09090b;
+    color: #f4f4f5;
+    font-family: var(--app-font-sans);
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    letter-spacing: 0;
+    background-size: 24px 24px;
+    background-image: 
+      linear-gradient(to right, rgba(255, 255, 255, 0.03) 1px, transparent 1px),
+      linear-gradient(to bottom, rgba(255, 255, 255, 0.03) 1px, transparent 1px);
+    background-attachment: fixed;
+  }
+
+  ::selection {
+    background-color: rgba(254, 109, 1, 0.3);
+    color: #ffffff;
+  }
+
+  code, pre, .font-mono {
+    font-family: var(--app-font-mono);
+  }
+}
+
+/* Sharp non-rounded custom scrollbars */
+::-webkit-scrollbar {
+  width: 6px;
+  height: 6px;
+}
+::-webkit-scrollbar-track {
+  background: #09090b;
+}
+::-webkit-scrollbar-thumb {
+  background: #27272a;
+  border-radius: 0px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: #3f3f46;
+}

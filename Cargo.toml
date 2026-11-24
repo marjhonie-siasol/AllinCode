@@ -1,0 +1,6 @@
+[workspace]
+members = [
+    "crates/allincode-core",
+    "crates/allincode-server",
+]
+resolver = "2"

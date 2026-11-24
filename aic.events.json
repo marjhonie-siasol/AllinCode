@@ -1,0 +1,138 @@
+[
+  {
+    "id": "prm_1795484866919",
+    "timestamp": "9:47:46 AM",
+    "type": "PROMPT_INTERCEPTED",
+    "title": "Non-Tool Prompt Intercepted",
+    "prompt": "remove this part see the screneshot all cross to the navs",
+    "toolsLoaded": 0,
+    "traditionalCost": 35700,
+    "allInCodeCost": 0,
+    "tokensSaved": 35700,
+    "status": "BYPASSED"
+  },
+  {
+    "id": "prm_1795484711695",
+    "timestamp": "9:45:11 AM",
+    "type": "PROMPT_INTERCEPTED",
+    "title": "Targeted Tool Execution Intercepted",
+    "prompt": "PS C:\\Users\\marjh\\OneDrive\\Desktop\\all-in-code> aic \n\n    _    _     _       ___",
+    "toolsLoaded": 1,
+    "traditionalCost": 35700,
+    "allInCodeCost": 980,
+    "tokensSaved": 34720,
+    "status": "APPROVAL_REQUESTED"
+  },
+  {
+    "id": "prm_1795484110055",
+    "timestamp": "9:35:10 AM",
+    "type": "PROMPT_INTERCEPTED",
+    "title": "Targeted Tool Execution Intercepted",
+    "prompt": "@[TerminalName: powershell.exe, ProcessId: e1abe0b2-0bdb-4869-af76-a85fde9d8625]",
+    "toolsLoaded": 1,
+    "traditionalCost": 35700,
+    "allInCodeCost": 980,
+    "tokensSaved": 34720,
+    "status": "APPROVAL_REQUESTED"
+  },
+  {
+    "id": "prm_1795484110018",
+    "timestamp": "9:35:10 AM",
+    "type": "PROMPT_INTERCEPTED",
+    "title": "Non-Tool Prompt Intercepted",
+    "prompt": "what does this changes do?",
+    "toolsLoaded": 0,
+    "traditionalCost": 35700,
+    "allInCodeCost": 0,
+    "tokensSaved": 35700,
+    "status": "BYPASSED"
+  },
+  {
+    "id": "prm_1795483856739",
+    "timestamp": "9:30:56 AM",
+    "type": "PROMPT_INTERCEPTED",
+    "title": "Non-Tool Prompt Intercepted",
+    "prompt": "for those nav contents can you make the make their text be the same as the thing",
+    "toolsLoaded": 0,
+    "traditionalCost": 35700,
+    "allInCodeCost": 0,
+    "tokensSaved": 35700,
+    "status": "BYPASSED"
+  },
+  {
+    "id": "model_1795443914344",
+    "timestamp": "10:25:14 PM",
+    "type": "MODEL_SWITCH",
+    "title": "Switched to Gemini 3.8 Flash (Medium)",
+    "details": {
+      "model": "Gemini 3.8 Flash (Medium)",
+      "contextLimit": 1000000
+    }
+  },
+  {
+    "id": "model_1795443456380",
+    "timestamp": "10:17:36 PM",
+    "type": "MODEL_SWITCH",
+    "title": "Switched to Claude Sonnet 4.6 (Thinking)",
+    "details": {
+      "model": "Claude Sonnet 4.6 (Thinking)",
+      "contextLimit": 200000
+    }
+  },
+  {
+    "id": "appr_1795432098237",
+    "timestamp": "7:08:18 PM",
+    "type": "APPROVAL_REQUIRED",
+    "title": "docker.buildAndPushImage({ image: \"marjhonie/saas-backend:latest\" })",
+    "details": {
+      "server": "docker",
+      "action": "buildAndPushImage"
+    }
+  },
+  {
+    "id": "evt_1795432098236",
+    "timestamp": "7:08:18 PM",
+    "type": "PROMPT_INTERCEPTED",
+    "title": "Targeted Tool Execution Intercepted",
+    "prompt": "Build and push Docker container to Docker Hub (marjhonie)",
+    "toolsLoaded": 1,
+    "traditionalCost": 35700,
+    "allInCodeCost": 980,
+    "tokensSaved": 34720,
+    "status": "APPROVAL_REQUESTED"
+  },
+  {
+    "id": "appr_1795431387442",
+    "timestamp": "6:56:27 PM",
+    "type": "APPROVAL_REQUIRED",
+    "title": "docker.buildAndPushImage({ image: \"marjhonie/saas-backend:latest\" })",
+    "details": {
+      "server": "docker",
+      "action": "buildAndPushImage"
+    }
+  },
+  {
+    "id": "evt_1795431387442",
+    "timestamp": "6:56:27 PM",
+    "type": "PROMPT_INTERCEPTED",
+    "title": "Targeted Tool Execution Intercepted",
+    "prompt": "Build and push Docker container to Docker Hub (marjhonie)",
+    "toolsLoaded": 1,
+    "traditionalCost": 35700,
+    "allInCodeCost": 980,
+    "tokensSaved": 34720,
+    "status": "APPROVAL_REQUESTED"
+  },
+  {
+    "id": "evt_1795431306170",
+    "timestamp": "6:55:06 PM",
+    "type": "PROMPT_INTERCEPTED",
+    "title": "Non-Tool Prompt Intercepted",
+    "prompt": "Fix typo in README and format markdown",
+    "toolsLoaded": 0,
+    "traditionalCost": 35700,
+    "allInCodeCost": 800,
+    "tokensSaved": 34900,
+    "status": "BYPASSED"
+  }
+]

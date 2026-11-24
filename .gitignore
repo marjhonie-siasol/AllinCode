@@ -34,3 +34,7 @@ lerna-debug.log*
 Thumbs.db
 .vscode/
 .idea/
+
+# Rust build target & extra libs
+target/
+extra_libs/
